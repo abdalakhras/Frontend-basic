@@ -1,0 +1,59 @@
+h1{
+    color: brown;
+}
+th{
+    color: blue;
+}
+p{
+    color: red;
+}
+h2{
+    text-align: center;
+}
+#xxx{
+    text-align: center;
+}
+#imgx{
+    clip-path: circle(50%); display: block; margin: auto;
+}
+.button{
+    background-color: red; border: none; padding: 30px; text-align: center;
+    color: white;font-size: 15px; border: solid;
+}
+#xy{
+    color: rgb(255, 162, 0); margin-bottom: 0px;
+}
+.abd{
+    color: blueviolet; letter-spacing: 10px;
+}
+a{text-decoration: none;
+}
+h5{
+    text-indent: 100px;
+}
+#z{
+    color: white;
+} 
+.sec1{
+    background-color: aqua;
+}
+.sec2{
+    background-color: brown;
+} 
+#menu{
+    list-style: none;
+}
+#menu>li{
+    display: inline; margin-left: 40px;
+    border: 2px solid;padding: 10px;border-radius: 15px;
+    background-color: green;
+}
+#menu>li:hover{
+    color: red;
+}
+#header{
+    display: flex;background-color: grey;
+}
+nav{
+    margin-top: 50px;
+}
