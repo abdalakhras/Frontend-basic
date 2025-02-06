@@ -1,0 +1,22 @@
+#header{
+    margin-bottom: 50px;
+}
+h1{
+    text-align: center;
+}
+#ptag{
+    text-align: center;
+}
+#hp1{
+    margin-top: -200px;
+}
+.item{
+    margin-left: 20px; text-align: center; background-color: aqua;
+    padding: 50px;
+}
+.gridContainer{
+    margin-top: 100px; margin-left: 50px; margin-right: 50px;
+    display: grid; grid-template-columns: auto auto auto; 
+    grid-gap: 10px; background-color: blueviolet;
+
+}
