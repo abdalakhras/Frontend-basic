@@ -6,14 +6,23 @@
 }
 #hp1{
     text-align: center;
+    margin-left: 50px;
 }
 .item{
     margin-left: 20px; text-align: center; background-color: aqua;
     padding: 50px;
 }
 .gridContainer{
-    margin-top: 200px; margin-left: 50px; margin-right: 50px;
+    margin-top: 50px; margin-left: 50px; margin-right: 50px;
     display: grid; grid-template-columns: auto auto auto; 
     grid-gap: 10px; background-color: blueviolet;
 
+}
+header{
+    /*display: flex;*/ 
+    /*overflow: hidden;*/
+    background-color: bisque;
+}
+.clear{
+    clear: both;
 }
