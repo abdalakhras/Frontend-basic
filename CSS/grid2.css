@@ -1,0 +1,31 @@
+.header{
+    grid-area: header;
+    height: 50px;
+    background-color: aqua;
+}
+.leftMenu{
+    grid-area: leftMenu;
+    background-color: blue;
+}
+.main{
+    grid-area: main;
+   height: 500px;
+    background-color: brown;
+}
+.rightMenu{
+    grid-area: rightMenu;
+    background-color: blueviolet;
+}
+.footer{
+    grid-area: footer;
+    height: 50px;
+    background-color: green;
+}
+.container{
+    display: grid;
+    grid-template-areas: 'header header header header'
+    'leftMenu main main rightMenu'
+    'leftMenu main main rightMenu'
+    'leftMenu footer footer footer';
+    text-align: center;
+}
