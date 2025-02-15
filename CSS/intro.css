@@ -1,6 +1,7 @@
 .navbar{
     background-color: aqua;
 }
+/* i changed this class (btn) to style */
 .btn1{
 
 background-color: blueviolet; 
@@ -20,5 +21,22 @@ transition: background-color 1s border 1s;
     border: 5px black solid;
 }
 .card-img-top{
-    width: 200px; margin: auto;
+    width: 200px; height: 250px; margin: auto; 
+}
+.card{
+    background-color: aqua;
+}
+/* i changed this class (w-10) to style*/
+.ww10{
+    width: 25%;
+    margin: auto;
+}
+.carousel-item{
+    background-color: brown;
+}
+.dropdown-item:hover{
+    background-color: brown; color: white;
+}
+.d-flex{
+    gap: 5px;
 }
