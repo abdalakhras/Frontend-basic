@@ -1,0 +1,24 @@
+.navbar{
+    background-color: aqua;
+}
+.btn1{
+
+background-color: blueviolet; 
+border: 5px black solid;
+ border-radius: 15px; 
+color: white;
+transition: background-color 1s border 1s;
+}
+.btn1:hover{
+  background-color: red;
+  border: 5px pink solid;
+}
+.container{
+    background-color: pink;
+}
+.col{
+    border: 5px black solid;
+}
+.card-img-top{
+    width: 200px; margin: auto;
+}
