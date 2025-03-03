@@ -22,7 +22,7 @@
     <script>
         function moveElement() {
             const element = document.getElementById("movingElement");
-            let currentLeft = parseInt(window.getComputedStyle(element).left, 10);
+            let currentLeft = parseInt(window.getComputedStyle(movingElement).left, 10);
             element.style.left = (currentLeft + 10) + "px"; // Moves the element by 10px
         }
     </script>
