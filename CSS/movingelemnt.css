@@ -1,0 +1,15 @@
+#container{
+    position: relative;
+    width: 500px;
+    height: 200px;
+    background-color: aqua;
+}
+
+#movingElement{
+    position:absolute;
+    /* top: 100px; */
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
