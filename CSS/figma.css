@@ -111,3 +111,30 @@ position: relative;
     width: 250px; height: 250px;
     box-shadow: 3px 3px 3px pink;
 }
+.standOutDishes{
+    position: relative;
+    display: flex;
+}
+.standOutDishes>div{
+    margin-left: 140px;
+}
+.arrowIcons{
+    position: absolute; right: 100px; bottom: 0px;
+}
+.arrowIcons>button{
+    border-radius: 50%; border: transparent;
+}
+.arrowIcons>button:hover{
+    background-color: greenyellow; color: white;
+}
+#bi-chevron-left{
+    margin-right: 30px;
+}
+.stndDishGrid{
+    display: grid;
+     grid-template-columns: auto auto auto;
+     justify-content: space-evenly;
+}
+.priceAndStars{
+    display: inline-flex;
+}
