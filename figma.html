@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="/CSS/figma.css">
 </head>
 <body>
+  <!-- Navigation Bar -->
     <nav class="nav">
-        <img id="imag" src="/images/cat.png">
+        <img id="imag" src="/images/Foodi.PNG">
+        <!-- the 4 buttons -->
         <ul class="btn4">
         <li><button class="btn1" style="color: green;"> Home</button></li>
         <li><div class="dropdown">
@@ -30,13 +32,18 @@
         <br>
         <ul class="btn3">
             <li><i class="bi bi-search"></i></li>
-            <li><i class="bi bi-bag-fill"></i></li>
+            <li><i class="bi bi-bag-fill position-relative"><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+              8
+              <span class="visually-hidden">unread messages</span>
+            </span></i></li>
             <li><button id="contactBtn"> <i class="bi bi-telephone-plus"></i> contact</button></li>
         </ul>
     </nav>
     <br>
     <br>
+    <!-- the first grid with the girl photo -->
     <div class="gridCont1">
+      <!-- the section with paragraph -->
         <div class="gridDiv1">
             <h1> Dive into Delights</h1>
             <h1>Of Delectable <span style="color: green;">Food</span></h1>
@@ -48,6 +55,7 @@
             <button>watch video</button>
             <i class="bi bi-play-circle"></i>
             </div>
+            <!-- the section with the phhoto -->
         <div class="gridDiv2">
             <div id="circleBKGRD">
             <div id="zIndx">
@@ -82,16 +90,16 @@
              </div>
              </div>
             </div>
-            
-
     </div>
     <br>
     <br>
+    <!-- the Populer Catagories -->
     <div class="popCatag">
     <p><span style="color: red;">Customer Favorites</span></p>
     <h1>Populer Catagories</h1>
 </div>
 <br>
+<!-- the Cards Grid -->
 <div class="cardsGrid">
     <div class="card">
         <img src="/images/burger.png" class="card-img-top" alt="...">
@@ -124,6 +132,7 @@
 </div>
 <br>
 <br>
+<!-- the StandOut Dishes -->
 <div class="standOutDishes" style="margin-top: 30px;">
     <div>
     <p><span style="color: red;">Special Dishes</span></p>
@@ -137,6 +146,7 @@
 </div>
 <br>
 <br>
+<!-- the Grid section of Dishes -->
 <div class="stndDishGrid">
     <div class="card" style="width: 250px; height: 300px">
         <img src="/images/Fattoush salad.png" class="card-img-top" style="width: 150px; height: 150px; background-color: transparent;">
@@ -157,11 +167,11 @@
         <div class="card-body">
           <h5 class="card-title">Egg vegi salad</h5>
           <p class="card-text">Description of the item</p>
-          <div class="priceAndStars">
-            <p><span style="color: red;">$</span>24.00</p>
+        
+            <p class="dollarSign"><span style="color: red;">$</span>24.00</p>
             <span class="fa fa-star checked"></span>
-            <p>4.5</p>
-        </div>
+            <p class="rate">4.5</p>
+        
         </div>
       </div>
 </div>
