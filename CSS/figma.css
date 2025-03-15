@@ -18,6 +18,9 @@ body{
 .bi-search{
     position: relative; top: 10px;
 }
+.bi-search:hover{
+    font-size: 20px;
+}
 .btn4{
  list-style: none; 
  display: inline-flex; 
@@ -43,6 +46,19 @@ body{
   justify-content: space-evenly;
 
 }
+#orderBtn{
+    padding: 10px 20px; border-radius: 20px; background-color: green; color: white; border: none;
+}
+#watchVideo{
+    padding: 10px; border: none; background-color: transparent; font-weight: bold;
+}
+.bi-play-fill{
+    background-color: white;
+    border-radius: 50%; 
+    font-size: 20px;
+    box-shadow: 2px 2px 2px wheat;
+}
+
 .gridDiv2{
 position: relative;
 }
@@ -148,7 +164,7 @@ position: relative;
     position: absolute; left: 15px; bottom: 0px;
     font-weight: bold ;
 }
-.fa-star{
+.pstin{
     position: absolute; right: 50px; bottom: 19px;
 }
 .rate{
@@ -160,4 +176,18 @@ position: relative;
     background-color:green;
     position: absolute; top: 0px; right: 0px;
     z-index: 5;
+}
+.bi-heart{
+    position: relative !important;
+    top: 10px;
+}
+.bi-heart-fill{
+    display: none;
+}
+.bi-heart:hover + .bi-heart-fill{ 
+    display: block;
+    position: relative !important;
+    bottom: 14px;
+    z-index: 1;
+    color: white;
 }
