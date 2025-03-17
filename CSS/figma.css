@@ -35,7 +35,7 @@ body{
    padding: 10px; border: none; background-color: transparent;
 }
 #contactBtn{
-    padding: 10px 20px; border-radius: 20px; background-color: green; color: white; border: none;
+    padding: 10px 20px; border-radius: 20px; background-color: #53EC62; color: white; border: none;
 }
 .dropdown-toggle::after{
     color: green
@@ -49,7 +49,7 @@ body{
 
 }
 #orderBtn{
-    padding: 10px 20px; border-radius: 20px; background-color: green; color: white; border: none;
+    padding: 10px 20px; border-radius: 20px; background-color: #53EC62; color: white; border: none;
 }
 #watchVideo{
     padding: 10px; border: none; background-color: transparent; font-weight: bold;
@@ -66,7 +66,7 @@ position: relative;
 }
 
 #circleBKGRD{
- background-color: green; height: 400px; width: 400px; border-radius: 50%; 
+ background-color: #53EC62; height: 400px; width: 400px; border-radius: 50%; 
  position: relative;
 }
 #imgGirl{
@@ -94,7 +94,7 @@ position: relative;
      gap:35px;
 }
 .stars{
-    height: 100px; width: 250px; background-color: blanchedalmond;
+    height: 100px; width: 250px; background-color: #FFFFFF;
      display: flex; 
      border-radius: 10px 20px;
      box-shadow: 3px 3px 3px pink;
@@ -131,7 +131,7 @@ position: relative;
 .card{
     border-radius: 30px;
     text-align: center;
-    background-color: blanchedalmond;
+    background-color:#FFFFFF;
     width: 250px; height: 250px;
     box-shadow: 3px 3px 3px pink;
 }
@@ -175,7 +175,7 @@ position: relative;
 .greenTag{
     width: 75px; height: 50px; 
     border-radius: 0px 30px 0px 50px;
-    background-color:green;
+    background-color:#53EC62;
     position: absolute; top: 0px; right: 0px;
     z-index: 5;
 }
@@ -263,4 +263,23 @@ position: relative;
 }
 #rectangl>span{
     position: absolute; top: 0px; left: 0px; font-size: 40px;
+}
+#gridWith4Cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 650px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    margin-left: 50px; margin-right: 50px;
+}
+#fourCards{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+#Explore{
+    padding: 10px 20px; border-radius: 20px; 
+    background-color:#39DB4A; color: white; 
+    border: none;
 }
