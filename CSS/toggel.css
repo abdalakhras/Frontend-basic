@@ -37,7 +37,7 @@
         text-align: center;
     }
     .nav-links.active {
-        display: flex;
+        display: flex; 
     }
 
     .toggle-btn {
