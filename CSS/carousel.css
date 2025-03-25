@@ -10,13 +10,16 @@
     margin: auto;
     overflow: hidden;
 }
+img{
+    width: 200px;
+}
 
-.carousel-images img {
-    width: 100%;
+.carousel-images {
+    width: 70%;
     display: none;
 }
 
-.carousel-images img.active {
+.carousel-images.active {
     display: block;
 }
 
