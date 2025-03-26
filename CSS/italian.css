@@ -1,0 +1,31 @@
+body{
+    background-color: #DAD5CB;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #D3CEC2;
+}
+.nav .image {
+    width: 200px; 
+    margin: 10px 0px 0px 20px;
+}
+.nav .fiveBtn {
+    list-style: none;
+}
+.nav .fiveBtn li {
+    display: inline;
+    margin: 0px 20px 0px 0px; 
+}
+.nav .fiveBtn li .btn1 {
+    padding: 10px; 
+    border: transparent; background-color: transparent;
+    font-size: 17px; cursor: pointer; font-style: italic;
+}
+.plate-image-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
