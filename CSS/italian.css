@@ -1,66 +1,88 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #FAF4F4;
+body {
+  background-color: #faf4f4;
 }
-.firstDivision{
-    width: 90%;
-    height: 90%;
-    background-color: #DAD5CB;
-    margin: auto;
-    border-radius: 20px 20px 20px 20px;
+.containerDivision {
+  width: 90%;
+  height: 90%;
+  background-color: #dad5cb;
+  margin: auto;
+  border-radius: 20px 20px 20px 20px;
 }
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    background-color: #D3CEC2;
-    border-radius: 20px 20px 0px 0px;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #d3cec2;
+  border-radius: 20px 20px 0px 0px;
 }
 .nav .image {
-    width: 200px; 
-    margin: 10px 0px 0px 20px;
+  width: 200px;
+  margin: 10px 0px 0px 20px;
 }
 .nav .fiveBtn {
-    list-style: none;
+  list-style: none;
 }
 .nav .fiveBtn li {
-    display: inline;
-    margin: 0px 20px 0px 0px; 
+  display: inline;
+  margin: 0px 20px 0px 0px;
 }
 .nav .fiveBtn li .btn1 {
-    padding: 10px; 
-    border: transparent; background-color: transparent;
-    font-size: 17px; cursor: pointer; font-style: italic;
+  padding: 10px;
+  border: transparent;
+  background-color: transparent;
+  font-size: 17px;
+  cursor: pointer;
+  font-style: italic;
 }
 /* this is the beggining of the Big plate Image */
-.plate-image-grid{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    height: 700px;
-    /* background-color: skyblue; */
+.plate-image-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  height: 700px;
+  /* background-color: skyblue; */
 }
 .plate-image-grid .relative-plateImag {
-    position: relative;
-    /* background-color: green; */
-    width: 100%; height: 100%;
+  position: relative;
+  /* background-color: green; */
+  width: 100%;
+  height: 100%;
 }
 
 .plateImg {
-    /* the height and width are 80% of origina size picture from Figma */
-   width: 770px; height: 555px;
-   /* margin-left: -180px ; */
-   position: absolute; 
-   top: 100px; right: 0px ;
+  /* the height and width are 80% of origina size picture from Figma */
+  width: 770px;
+  height: 555px;
+  /* margin-left: -180px ; */
+  position: absolute;
+  top: 100px;
+  right: 0px;
 }
-.plate-image-grid .text{
-    margin-left: 30px;
-    /* margin: 200px 0px 0px 30px; */
+.plate-image-grid .text {
+  margin-left: 30px;
+  /* margin: 200px 0px 0px 30px; */
 }
 .plate-image-grid .text h1 {
-    margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
+/* there's a lot of ways to center the (Menu) image inside this div, but i just wanted to do the flex properety  */
+.menuImg {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.Menu {
+    width: 80%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+/* width="250px" height="150px" */
+
+
