@@ -78,11 +78,42 @@ body {
 }
 
 .Menu {
-    width: 80%;
-  margin-top: 30px;
+    width: 90%;
+    height: 700px;
+  margin: 30px auto;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1.5fr 1.5fr 1fr;
+  align-items: center;
+  text-align: center;
 }
-/* width="250px" height="150px" */
+.Menu img {
+  margin: auto;
+  
+}
+.xyz {
+  width:300px; height:250px; 
+  
+}
+.Menu .menu-discription {
+  display: flex;
+  width: 350px; height: 65px;
+  background-color:#d3cec2 ;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.Menu .menu-price {
+  font-size: 20px;
+  background-color: #d3cec2;
+  height: 40px;
+  border-radius: 20px;
+  width: 120px;
+  margin: 0px auto;
+}
+
+.Menu .menu-price p {
+  margin: 10px 0px;
+}
+
+
 
 
