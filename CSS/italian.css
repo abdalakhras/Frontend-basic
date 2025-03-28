@@ -113,7 +113,33 @@ body {
 .Menu .menu-price p {
   margin: 10px 0px;
 }
+.controllers{
+  display: flex;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  background-color: aqua;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.controllers .bi-chevron-left {
+  font-size: 20px;
+}
+.controllers .bi-chevron-right {
+  font-size: 20px;
+}
+.numsList{
+  /* background-color: red; */
+  list-style: none; 
+  width: 60%; height: 30px; 
+  padding: 0px;
+  text-align: center;
 
-
-
+}
+.numsList li {
+   display: inline;
+}
+.numsList li button {
+  font-size: 20px;
+}
 
