@@ -5,13 +5,16 @@
 body {
   background-color: #faf4f4;
 }
+/* this division is the container of all divisions */
 .containerDivision {
+  /* if we make the width 75%-80% it would look more convinent and very much simlialr to Figma */
   width: 90%;
   height: 90%;
   background-color: #dad5cb;
   margin: auto;
   border-radius: 20px 20px 20px 20px;
 }
+/* this is for the navigation bar  */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -76,7 +79,7 @@ body {
   display: flex;
   justify-content: center;
 }
-
+/* this is the beggining of the Menu division */
 .Menu {
     width: 90%;
     height: 700px;
@@ -90,6 +93,7 @@ body {
   margin: auto;
   
 }
+/* this image is already (from figma) have a width different from the other 2 */
 .xyz {
   width:300px; height:250px; 
   
@@ -166,4 +170,16 @@ body {
 .controllers .prev:hover{
   background-color: bisque;
 }
-
+/* this is the Gallery division */
+.gallery{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 30px auto;
+  height: 800px;
+  width: 90%;
+}
+.gallery img {
+  margin: auto;
+  width: 330px; 
+  height: 320px;
+}
