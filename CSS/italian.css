@@ -118,16 +118,11 @@ body {
   width: 500px;
   height: 100px;
   margin: auto;
-  background-color: aqua;
+  /* background-color: aqua; */
   justify-content: space-evenly;
   align-items: center;
 }
-.controllers .bi-chevron-left {
-  font-size: 20px;
-}
-.controllers .bi-chevron-right {
-  font-size: 20px;
-}
+
 .numsList{
   /* background-color: red; */
   list-style: none; 
@@ -141,5 +136,34 @@ body {
 }
 .numsList li button {
   font-size: 20px;
+  border-radius: 50%; border: transparent;
+  background-color: #d3cec2;
+  cursor: pointer;
+}
+.numsList li button:hover{
+  background-color: bisque;
+}
+.controllers .bi-chevron-left {
+  font-size: 30px;
+  
+}
+.controllers .bi-chevron-right {
+  font-size: 30px;
+}
+.controllers .prev {
+  border-radius: 50%; border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+.controllers .next {
+  border-radius: 50%; border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+.controllers .next:hover{
+  background-color: bisque;
+}
+.controllers .prev:hover{
+  background-color: bisque;
 }
 
