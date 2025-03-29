@@ -183,3 +183,52 @@ body {
   width: 330px; 
   height: 320px;
 }
+/* the Form styling */
+.containerDivision .containerForm {
+  width: 70%;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #C2C0C0;
+  margin: 30px auto;
+}
+/* this class is added specifically for this div to adjust the height only for this div */
+.formHight{
+  height: 700px;
+}
+.containerDivision .containerForm form {
+  margin : auto 20px; 
+}
+/* form input styling */
+.containerDivision .containerForm form input {
+  padding: 10px;
+  width: 70%;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  margin: 10px 10px;
+  background-color: #F4EAEA;
+  
+}
+/* specifying the exact input */
+#name ,#phone {
+  padding: 5px;
+}
+#address{
+  padding: 20px;
+}
+#number{
+  padding: 5px;
+  width: 10%;
+}
+#date , #time {
+  width: 20%;
+}
+.submitBtn{
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+   background-color: #F4EAEA;
+   cursor: pointer;
+}
+
+
