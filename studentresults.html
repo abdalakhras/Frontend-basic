@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>student Result</title>
+</head>
+<body>
+    <h1 style="color: aqua;">student Results</h1>
+
+    <table border="2">
+        <tr>
+            <th>student name :</th>
+            <th>subject 1</th>
+            <th>subject 2</th>
+            <th>subject 3</th>
+            <th>subject 4</th>
+            <th>subject 5</th>
+            <th>total result</th>
+            <th>average</th>
+            <th>pass/fail</th>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="student name"></td>
+             <form onsubmit="Calculate(event)">
+
+                <button type="submit" >calculate avarage</button>   
+
+              <td><input type="number" id="sub1" placeholder="enter grade"></td>
+              <td><input type="number" id="sub2" placeholder="enter grade"></td>
+              <td><input type="number" id="sub3" placeholder="enter grade"></td>
+              <td><input type="number" id="sub4" placeholder="enter grade"></td>
+              <td><input type="number" id="sub5" placeholder="enter grade"></td>
+
+             </form>
+             
+              <td id="totl"></td>
+              <td id="avg"></td>
+              <td id="pass"></td>
+        </tr>
+    </table>
+
+
+
+
+
+
+    <script src="./Js/studentresults.js"></script>
+</body>
+</html>
