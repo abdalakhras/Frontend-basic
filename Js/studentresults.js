@@ -18,10 +18,12 @@ function Calculate (e){
    var total = Number(subj1) + Number(subj2) + Number(subj3) + Number(subj4) + Number(subj5)
    console.log(total)
    totl.innerHTML = total
-   avg.innerHTML = total/5
-   if(total >= 250 && avg >= 50 ){
+   const average = total/5
+   avg.innerHTML = average
+   if(total >= 250 && average >= 50 ){
     pass.innerHTML = 'Pass'
    }else{
     pass.innerHTML = 'fail'
    }
+   console.log(total, typeof total, average, typeof average)
 }
