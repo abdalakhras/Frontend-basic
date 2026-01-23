@@ -41,8 +41,8 @@ myProducts.discription = discription.value
 myProducts.price = price.value
 myProducts.imgUrl = image.value
 myList.push({...myProducts})
-// myList = [...myList,{...myProducts}]
-// localStorage.setItem('myList',JSON.stringify(myList))
+// myList = [...myList,{...myProducts}] // we could also use this to create a copy of the obj and store in the list
+localStorage.setItem('myList',JSON.stringify(myList))
 console.log(myProducts)
 console.log(myList)
 
@@ -51,6 +51,11 @@ console.log(myList)
     myList.forEach((itm)=>{
       const col = document.createElement('div')
       col.classList.add('col')
+    //   col.dataset.id = itm.id
+    // col.addEventListener('click',(e)=>{
+    //     console.log(e.currentTarget.dataset.id)
+    //     localStorage.setItem('productId',(e.currentTarget.dataset.id))
+    // })
       col.innerHTML = `
       
        <div class="card" style="width: 18rem;">
@@ -59,41 +64,27 @@ console.log(myList)
         <h5 class="card-title">${itm.name}</h5>
         <p class="card-text">${itm.discription}</p>
         <p>${itm.price} $</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <button class="btn btn-primary add-to-cart" data-id="${itm.id}">add to cart</button>
         </div>
         </div>
 
         `
          row.appendChild (col)
         
-       
-    })
-    // end
+         
+var btn = col.querySelector('.add-to-cart')
+btn.addEventListener('click',(e)=>{
+
+ let id = e.target.dataset.id
+ console.log('id from button click',id)
+  localStorage.setItem('productId',(e.currentTarget.dataset.id))
 })
 
-function addCard (){
-    console.log('hey')
-    // var row = document.getElementById('row')
-    // row.innerHTML = ''
-    // myList.forEach((itm)=>{
-    //   const col = document.createElement('div')
-    //   col.classList.add('col')
-    //   col.innerHTML = `
-      
-    //    <div class="card" style="width: 18rem;">
-    //     <img src="${itm.imgUrl}" class="card-img-top" alt="img cannot be shown">
-    //     <div class="card-body">
-    //     <h5 class="card-title">${itm.name}</h5>
-    //     <p class="card-text">${itm.discription}</p>
-    //     <p>${itm.price} $</p>
-    //     <a href="#" class="btn btn-primary">Go somewhere</a>
-    //     </div>
-    //     </div>
-
-    //     `
-    //      row.appendChild (col)
-        
        
-    // })
-}
+    })
+
+})
+
+
+
 
