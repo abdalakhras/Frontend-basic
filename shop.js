@@ -6,7 +6,7 @@ var myProducts = {
     imgUrl:''
 }
 
-var myList = [
+var myList = JSON.parse(localStorage.getItem('myList')) || [
     {id:'1',
     name:'TV',
     discription:'sony TV',
@@ -25,6 +25,10 @@ var myList = [
     price:'300',
     imgUrl:'https://i5.walmartimages.com/seo/SAMSUNG-32-Class-FHD-1080P-Smart-LED-TV-UN32N5300_2b2943fd-73d6-4d7b-9c54-e22db0c660f1_4.e79d68ec3a718064170de6cbd82e6030.jpeg'}
 ]
+
+var cartList = JSON.parse(localStorage.getItem('cartList')) || []
+
+
 
 function ViewList(){
   var row = document.getElementById('row')
@@ -69,12 +73,6 @@ ViewList()
 
 
 
-
-
-
-
-
-var cartList = []
 var myform = document.getElementById('myform')
 
 myform.addEventListener('submit',(e)=>{
