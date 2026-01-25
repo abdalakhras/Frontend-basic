@@ -32,9 +32,10 @@ var cartList = JSON.parse(data3)
   <div class="card-body">
     <h5 class="card-title">${card.name}</h5>
     <p class="card-text">${card.discription}</p>
-    <p>${card.price} $</p>
-           <p># of products ${card.qnt}</p>
-    <a href="" class="btn btn-primary">Add to cart</a>
+    <p style ="color:blue" id="card-price" class="card-price" data-qntty=${card.qnt} data-price=${card.price}>${card.price} $</p>
+           <p style ="color:red"># of products :  ${card.qnt}</p>
+           <p style ="color:blueviolet"> price :  ${Number(card.qnt)*Number(card.price)}</p>
+  
   </div>
 </div>
 
@@ -44,3 +45,23 @@ var cartList = JSON.parse(data3)
   
 }
 Cart()
+
+var cardPrice = document.querySelectorAll('.card-price')
+// var cardPricex = document.getElementById('card-price')
+var totalPrice = document.getElementById('totalPrice') 
+function getTotalPrice (){
+let total = 0 
+cardPrice.forEach((card)=>{
+  let qntty = card.dataset.qntty
+  let price = card.dataset.price
+  console.log(Number(price)*Number(qntty))
+  let totalPrice = Number(price)*Number(qntty)
+  console.log(totalPrice)
+  total += Number(totalPrice)
+})
+console.log(total)
+totalPrice.innerHTML=total + "$"
+}
+
+getTotalPrice()
+

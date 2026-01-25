@@ -9,19 +9,19 @@ var myProducts = {
 var myList = [
     {id:'1',
     name:'TV',
-    discription:'xzxzxz',
+    discription:'sony TV',
     price:'100',
     imgUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk2GAEv2BeZxDOAVaJZ2KF-YKarCTdaaZAyw&s'},
     {
     id:'2',
     name:'TV',
-    discription:'bxbxbx',
+    discription:'samsung Tv',
     price:'200',
     imgUrl:'https://m.media-amazon.com/images/I/81pieXC63IL._AC_UF1000,1000_QL80_.jpg'
     },
     {id:'3',
     name:'TV',
-    discription:'NmNmNm',
+    discription:'Heisense Tv',
     price:'300',
     imgUrl:'https://i5.walmartimages.com/seo/SAMSUNG-32-Class-FHD-1080P-Smart-LED-TV-UN32N5300_2b2943fd-73d6-4d7b-9c54-e22db0c660f1_4.e79d68ec3a718064170de6cbd82e6030.jpeg'}
 ]
